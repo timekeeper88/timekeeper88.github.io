@@ -1,12 +1,18 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Home"
+    url: /
+
+
+sidebar_category:
+  - title : Programming
+    url: /categories/
+    children:
+      - title: "Flutter"
+        url: /categories/flutter/
+      - title: "Unity"
+        url: /categories/unity/
+      - title: "Pyton"
+        url: /categories/python/
+      - title: Etc
+        url: /categories/etc/

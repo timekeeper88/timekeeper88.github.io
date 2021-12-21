@@ -15,8 +15,8 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Site Title"
+locale                   : "ko-KR"
+title                    : "스펙 저장소"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Your Name"
@@ -102,10 +102,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  name             : "Programmer"
+  avatar           : "/assets/images/man.jpg"
+  bio              : "까마귀 고기를 꿀꺽한 프로그래머"
+  location         : "Korea"
   email            :
   links:
     - label: "Email"
@@ -267,7 +267,7 @@ tag_archive:
 #     tag: /tags/:name/
 
 
-# HTML Compression
+# HTML Compression 
 # - https://jch.penibelst.de/
 compress_html:
   clippings: all
@@ -284,7 +284,9 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
       comments: # true
       share: true
+      read_time: true
       related: true
+      sidebar_main:
+        nav: sidebar_category
